@@ -1,3 +1,3 @@
 # terminal_shell
-a demon's control panel. 
-you can use in web server. 
+a demon's terminal. 
+you can use in web server as command line... 

